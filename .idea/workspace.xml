@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afe87952-cbcc-46ab-b2df-a91a6ff81f45" name="Default" comment="Added support to simple assignments with literals">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/ometa/sandbox.groovy" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/groovy/ometa/OMetaGroovyIntegration.groovy" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/binary/test/results.bin" afterPath="$PROJECT_DIR$/build/test-results/binary/test/results.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/groovy/ometa/OMeta.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/ometa/OMeta.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/groovy/ometa/OMetaGroovyRunner.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/ometa/OMetaGroovyRunner.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/groovy/ometa/OMetaGroovyRunnerSpec.groovy" afterPath="$PROJECT_DIR$/src/test/groovy/ometa/OMetaGroovyRunnerSpec.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/TEST-ometa.OMetaGroovyRunnerSpec.xml" afterPath="$PROJECT_DIR$/build/test-results/TEST-ometa.OMetaGroovyRunnerSpec.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/test/dsl_02.groovy" afterPath="$PROJECT_DIR$/build/resources/test/dsl_02.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/dsl_02.groovy" afterPath="$PROJECT_DIR$/src/test/resources/dsl_02.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/test/dsl_xx.groovy" afterPath="$PROJECT_DIR$/build/resources/test/dsl_xx.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/dsl_xx.groovy" afterPath="$PROJECT_DIR$/src/test/resources/dsl_xx.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/helton.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/helton.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/index.html" afterPath="$PROJECT_DIR$/build/reports/tests/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/classes/ometa.OMetaGroovyRunnerSpec.html" afterPath="$PROJECT_DIR$/build/reports/tests/classes/ometa.OMetaGroovyRunnerSpec.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/packages/ometa.html" afterPath="$PROJECT_DIR$/build/reports/tests/packages/ometa.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="afe87952-cbcc-46ab-b2df-a91a6ff81f45" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/ometa/expressions/CompoundExpression.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/ometa/expressions/ContainerExpression.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/ometa/expressions/Expression.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/ometa/expressions/LiteralExpression.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/ometa/expressions/LookaheadExpression.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/ometa/expressions/NegativeLookaheadExpression.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/ometa/expressions/OneOfExpression.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/ometa/expressions/OptionalExpression.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/ometa/expressions/RegexExpression.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/ometa/expressions/RepeatAtLeastExpression.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/ometa/expressions/RepeatExactlyExpression.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/ometa/expressions/RepeatOneOrMoreExpression.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/ometa/expressions/RepeatRangeExpression.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/ometa/expressions/RepeatUpToExpression.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/ometa/expressions/RepeatZeroOrMoreExpression.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/ometa/expressions/RuleReferenceExpression.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/ometa/expressions/SequenceExpression.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="OMetaGroovy.iws" />
@@ -70,50 +66,7 @@
     <favorites_list name="OMetaGroovy" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="OMetaGroovyRunnerSpec.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/groovy/ometa/OMetaGroovyRunnerSpec.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OMetaGroovyRunner.groovy" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/groovy/ometa/OMetaGroovyRunner.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5341297">
-              <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-              <folding>
-                <element signature="e#15#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OMeta.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/groovy/ometa/OMeta.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sandbox.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/groovy/ometa/sandbox.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -409,6 +362,23 @@
         <option value="$PROJECT_DIR$/src/test/groovy/ometa/OMetaGroovyRunnerSpec.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/ometa/OMetaGroovyIntegration.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/ometa/sandbox.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/ometa/expressions/Expression.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/ometa/expressions/SequenceExpression.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/ometa/expressions/OneOfExpression.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/ometa/expressions/LookaheadExpression.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/ometa/expressions/NegativeLookaheadExpression.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/ometa/expressions/RepeatAtLeastExpression.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/ometa/expressions/RepeatRangeExpression.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/ometa/expressions/RepeatZeroOrMoreExpression.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/ometa/expressions/RepeatOneOrMoreExpression.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/ometa/expressions/RepeatExactlyExpression.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/ometa/expressions/RepeatUpToExpression.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/ometa/expressions/OptionalExpression.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/ometa/expressions/CompoundExpression.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/ometa/expressions/ContainerExpression.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/ometa/expressions/LiteralExpression.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/ometa/expressions/RegexExpression.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/ometa/expressions/RuleReferenceExpression.groovy" />
       </list>
     </option>
   </component>
@@ -439,7 +409,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -580,6 +550,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ometa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OMetaGroovy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OMetaGroovy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groovy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ometa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="expressions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -994,16 +994,23 @@
       <created>1458000234969</created>
       <option name="number" value="Default" />
       <updated>1458000234969</updated>
-      <workItem from="1458000245117" duration="23051000" />
+      <workItem from="1458000245117" duration="23692000" />
     </task>
+    <task id="LOCAL-00001" summary="Added support to simple assignments with literals">
+      <created>1458104124803</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1458104124803</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23051000" />
+    <option name="totallyTimeSpent" value="23692000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="23" width="1924" height="1058" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1016,7 +1023,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.49574015" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.4978701" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19914803" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19914803" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30457935" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1169,11 +1176,147 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/groovy/ometa/OMetaGroovyRunner.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5341297">
+        <state vertical-scroll-proportion="0.0">
           <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
           <folding>
             <element signature="e#15#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/ometa/expressions/Expression.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/ometa/expressions/RepeatUpToExpression.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07167236">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/ometa/expressions/RepeatExactlyExpression.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07167236">
+          <caret line="2" column="59" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/ometa/expressions/RepeatZeroOrMoreExpression.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07167236">
+          <caret line="2" column="65" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/ometa/expressions/RepeatRangeExpression.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07167236">
+          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/ometa/expressions/RepeatAtLeastExpression.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07167236">
+          <caret line="2" column="58" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/ometa/expressions/NegativeLookaheadExpression.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07167236">
+          <caret line="2" column="61" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/ometa/expressions/LookaheadExpression.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07167236">
+          <caret line="2" column="53" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/ometa/expressions/ContainerExpression.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07167236">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/ometa/expressions/LiteralExpression.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07167236">
+          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/ometa/expressions/RegexExpression.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14334472">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/ometa/expressions/RuleReferenceExpression.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17918089">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/ometa/expressions/SequenceExpression.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07167236">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/ometa/expressions/OptionalExpression.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07167236">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/ometa/expressions/RepeatOneOrMoreExpression.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07167236">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/ometa/expressions/OneOfExpression.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07167236">
+          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/ometa/expressions/CompoundExpression.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14334472">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
