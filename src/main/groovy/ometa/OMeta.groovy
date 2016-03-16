@@ -6,4 +6,5 @@ import groovy.transform.Canonical
 class OMeta {
     String name
     Closure closure
+    Map variables
 }
